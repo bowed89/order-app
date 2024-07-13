@@ -6,6 +6,7 @@ try {
     /* const con = new Pool({
         connectionString: PG_CONNECTION_STRING
     }); */
+    
     const con = new Pool({
         user: process.env.USER,
         host: process.env.HOST,
