@@ -10,7 +10,7 @@ try {
         user: process.env.USER,
         host: process.env.HOST,
         database: process.env.DATABASE,
-        password: process.env.PASSWORD.trim(), // Asegúrate de que esta línea sea una cadena de texto
+        password: process.env.PASSWORD, // Asegúrate de que esta línea sea una cadena de texto
         port: process.env.PORT, // Puerto por defecto de PostgreSQL
     });
 
