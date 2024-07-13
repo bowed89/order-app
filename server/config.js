@@ -11,7 +11,7 @@ try {
         host: process.env.HOST,
         database: process.env.DATABASE,
         password: process.env.PASSWORD, // Asegúrate de que esta línea sea una cadena de texto
-        port: process.env.PORT, // Puerto por defecto de PostgreSQL
+        port: process.env.PORT_DO, // Puerto por defecto de PostgreSQL
     });
 
     con.connect();
