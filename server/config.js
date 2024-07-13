@@ -11,7 +11,7 @@ try {
         user: USER,
         host: HOST,
         database: DATABASE,
-        password: PASSWORD, // Asegúrate de que esta línea sea una cadena de texto
+        password: "root", // Asegúrate de que esta línea sea una cadena de texto
         port: PORT, // Puerto por defecto de PostgreSQL
     });
 
