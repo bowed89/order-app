@@ -6,13 +6,13 @@ try {
     /* const con = new Pool({
         connectionString: PG_CONNECTION_STRING
     }); */
-    
+
     const con = new Pool({
         user: process.env.USER,
         host: process.env.HOST,
         database: process.env.DATABASE,
         password: process.env.PASSWORD, // Asegúrate de que esta línea sea una cadena de texto
-        port: process.env.PORT_DO, // Puerto por defecto de PostgreSQL
+        port: 5432, // Puerto por defecto de PostgreSQL
     });
 
     con.connect();
